@@ -100,4 +100,4 @@ pip install selenium webdriver-manager
 >
 > * **Terms of Service**: Automated interactions with third-party web applications may violate their respective Terms of Service.
 > * **Fair Play**: Do not use these scripts to compete on public leaderboards, falsify benchmark scores, or disrupt online typing communities.
-> * **Responsibility**: The author accepts no responsibility or liability for account suspensions, bans, or any misuse of these scripts.
+> * **Responsibility**: The author accepts no responsibility or liability for account suspensions, bans, or any misuse of these scripts. Use this at your own risk
