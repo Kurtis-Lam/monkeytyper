@@ -6,7 +6,7 @@ This repository contains two distinct automated typing demonstration scripts for
 
 ## 📋 Overview & Approach Comparison
 
-| Feature / Aspect | Script 1: Computer Vision & OCR (`app.py`) | Script 2: DOM Extraction & Direct Selenium (`app4.py`) |
+| Feature / Aspect | Script 1: Computer Vision & OCR (`ocr_pyautogui.py`) | Script 2: DOM Extraction & Direct Selenium (`dom_selenium.py`) |
 | :--- | :--- | :--- |
 | **Primary Method** | OpenCV Image Processing + Tesseract OCR | JavaScript DOM Querying (`querySelector`) |
 | **Typing Mechanism** | OS-Level Keystrokes (`pyautogui`) | Browser Input Field Direct Injection (`send_keys`) |
@@ -20,7 +20,7 @@ This repository contains two distinct automated typing demonstration scripts for
 
 ## 🔬 Detailed Breakdown
 
-### 1. Vision & OCR Approach (`app.py`)
+### 1. Vision & OCR Approach (`ocr_pyautogui.py`)
 
 #### How It Works
 1. **Browser Initialization**: Launches Google Chrome via Selenium and navigates to MonkeyType.
@@ -36,7 +36,7 @@ This repository contains two distinct automated typing demonstration scripts for
 
 ---
 
-### 2. Direct DOM & Selenium Approach (`app4.py`)
+### 2. Direct DOM & Selenium Approach (`dom_selenium.py`)
 
 #### How It Works
 1. **Persistent Session**: Configures Chrome to use a local user profile directory (`selenium_chrome_profile`), allowing persistent login status, settings, and cookies.
@@ -60,19 +60,19 @@ This repository contains two distinct automated typing demonstration scripts for
 
 ## 🛠️ Prerequisites & Installation
 
-### Option A: Requirements for DOM Approach (`app4.py`)
+### Option A: Requirements for DOM Approach (`dom_selenium.py`)
 ```bash
 pip install selenium webdriver-manager
 ```
 
-### Option B: Requirements for OCR Approach (`app.py`)
+### Option B: Requirements for OCR Approach (`ocr_pyautogui.py`)
 1. **Python Packages**:
    ```bash
    pip install selenium webdriver-manager opencv-python pytesseract pyautogui
    ```
 2. **Tesseract-OCR Engine**:
    - Download and install Tesseract binary for Windows (e.g., from UB-Mannheim).
-   - Ensure the path in `app.py` points to your installed `tesseract.exe`:
+   - Ensure the path in `ocr_pyautogui.py` points to your installed `tesseract.exe`:
      ```python
      pytesseract.pytesseract.tesseract_cmd = r"C:\Users\<YourUsername>\AppData\Local\Tesseract-OCR\tesseract.exe"
      ```
@@ -83,11 +83,11 @@ pip install selenium webdriver-manager
 
 1. Run the DOM-based fast script:
    ```bash
-   python app4.py
+   python dom_selenium.py
    ```
 2. Run the OCR & Vision-based script:
    ```bash
-   python app.py
+   python ocr_pyautogui.py
    ```
 
 ---
