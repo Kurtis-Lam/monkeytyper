@@ -101,3 +101,20 @@ pip install selenium webdriver-manager
 > * **Terms of Service**: Automated interactions with third-party web applications may violate their respective Terms of Service.
 > * **Fair Play**: Do not use these scripts to compete on public leaderboards, falsify benchmark scores, or disrupt online typing communities.
 > * **Responsibility**: The author accepts no responsibility or liability for account suspensions, bans, or any misuse of these scripts. Use this at your own risk
+
+---
+
+## 📄 License
+
+This application's source code is shared under the **PolyForm Noncommercial License 1.0.0**. 
+
+* **Personal & Educational Use:** Free to use, modify, and explore. You must give credit to the original author.
+* **Commercial Use:** If you intend to use this code to earn revenue, build a commercial product, or use it within a business, you **must purchase a commercial license**.
+
+For commercial licensing terms and pricing, please contact me at: `kurtislam100@gmail.com`
+
+---
+
+## 🙌 Acknowledgements
+
+Built with ❤️ by Kurtis.
