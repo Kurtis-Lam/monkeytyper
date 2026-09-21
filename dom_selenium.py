@@ -50,6 +50,5 @@ def run_monkeytype_fast():
             print("Test finished!")
             break
 
-
 if __name__ == "__main__":
     run_monkeytype_fast()
