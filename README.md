@@ -1,4 +1,4 @@
-# MonkeyType Automation Scripts: OCR vs. DOM Approaches
+# MonkeyType Automation Scripts: OCR and DOM Approaches
 
 This repository contains two distinct automated typing demonstration scripts for [Monkeytype](https://monkeytype.com). Each script showcases a different automation philosophy—one relying on **Computer Vision & Optical Character Recognition (OCR)** with physical keystroke emulation, and the other leveraging **Direct DOM Querying & Selenium Web Driver Automation**.
 
@@ -53,7 +53,6 @@ This repository contains two distinct automated typing demonstration scripts for
 #### Advantages
 * **100% Text Accuracy**: Eliminates character misinterpretation entirely by fetching exact text strings straight from the application's DOM tree.
 * **Maximum Performance & Speed**: Capable of achieving ultra-high WPM (Words Per Minute) speeds with minimal delay between word submissions.
-* **Session & Cookie Retention**: Retains custom Monkeytype themes, user profiles, and preference configurations across executions.
 * **No External OCR Installation**: Runs out-of-the-box with standard Python packages without requiring external software like Tesseract binaries.
 
 ---
